@@ -38,7 +38,7 @@ header .speaker_view.btn i{
 /* ******MAIN****** */
 
 main{
-    height: calc(100vh - 130px);
+    height: calc(100vh - 110px);
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -101,7 +101,51 @@ main .user_name i{
 /* ******FOOTER****** */
 
 footer{
-    height: 80px;
+    height: 60px;
+    background-color: #222326;
+}
+
+footer nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .nav_left{
+    display: flex;
+    align-items: center;
+}
+
+footer .nav_main{
+    display: flex;
+    align-items: center;
+}
+
+footer .nav_right{
+    height: 100%;
+    color: #fe564c;
+    background-color: #4a4b4c;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+footer nav li{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer li i{
+    font-size: 25px;
+}
+
+footer li i.fa-chevron-up{
+    font-size: 18px;
+    margin: 0;
 }
 
 
@@ -127,10 +171,10 @@ footer{
     background-color: blue;
 }
 
-.debug .user{
-    /* background-color: darkblue; */
-}
+/* .debug .user{
+    background-color: darkblue;
+} */
 
-.debug footer{
+/* .debug footer{
     background-color: green;
-}
+} */
