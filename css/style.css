@@ -7,36 +7,55 @@
 }
 
 body{
+    color: white;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 /* ******HEADER****** */
 
 header{
-    height: 40px;
+    height: 50px;
+    background-color: black;
+    padding: 0 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .btn{
+    background: linear-gradient(#505050, #1f1f1f); 
+    cursor: pointer;
+    margin: 0 4px;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+header .speaker_view.btn i{
+    margin-right: 8px;
 }
 
 /* ******MAIN****** */
 
 main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 130px);
 }
 
 /* ******FOOTER****** */
 
 footer{
-    height: 60px;
+    height: 80px;
 }
 
 
 /* ******DEBUG****** */
 
-.debug header{
+/* .debug header{
     background-color: yellow;
-}
+} */
 
 .debug main{
-    background-color: lightblue;
+    background-color: red;
 }
 
 .debug footer{
