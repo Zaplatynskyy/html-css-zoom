@@ -65,12 +65,25 @@ main .swap_btn i:hover{
 
 /* proprietà main centrale degli utenti */
 
+main .users{
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 main .user{
-    background-color: skyblue;
+    flex-basis: calc(100% / 5 - 10px);
+    height: calc(100% / 5 - 10px);
+    background-color: gray;
     background-size: cover;
+    margin: 5px;
     display: flex;
     align-items: flex-end;
 } 
+
+main .user.speak{
+    border: 3px solid greenyellow;
+}
 
 main .user_name{
     background-color: rgba(0, 0, 0, 0.7);
@@ -115,8 +128,6 @@ footer{
 }
 
 .debug .user{
-    width: calc(100% / 5);
-    height: calc(100% / 5);
     /* background-color: darkblue; */
 }
 
