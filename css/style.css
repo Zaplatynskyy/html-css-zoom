@@ -12,10 +12,33 @@ body{
 
 /* ******HEADER****** */
 
+header{
+    height: 40px;
+}
+
 /* ******MAIN****** */
+
+main{
+    height: calc(100vh - 100px);
+}
 
 /* ******FOOTER****** */
 
+footer{
+    height: 60px;
+}
 
 
 /* ******DEBUG****** */
+
+.debug header{
+    background-color: yellow;
+}
+
+.debug main{
+    background-color: lightblue;
+}
+
+.debug footer{
+    background-color: green;
+}
