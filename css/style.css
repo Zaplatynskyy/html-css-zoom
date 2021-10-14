@@ -39,6 +39,7 @@ header .speaker_view.btn i{
 
 main{
     height: calc(100vh - 130px);
+    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,6 +63,28 @@ main .swap_btn i:hover{
     cursor: pointer;
 }
 
+/* proprietà main centrale degli utenti */
+
+main .user{
+    background-color: skyblue;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+} 
+
+main .user_name{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+}
+
+main .user_name i{
+    transform: scaleX(-1);
+    font-size: 18px;
+    margin-right: 5px;
+}
+
 /* ******FOOTER****** */
 
 footer{
@@ -79,16 +102,22 @@ footer{
     background-color: red;
 } */
 
-.debug .swap_btn{
-    /* width: 6%; */
-    /* height: 100%; */
+/* .debug .swap_btn{
+    width: 6%;
+    height: 100%;
     background-color: red;
-}
+} */
 
 .debug .users{
     width: 88%;
     height: 100%;
     background-color: blue;
+}
+
+.debug .user{
+    width: calc(100% / 5);
+    height: calc(100% / 5);
+    /* background-color: darkblue; */
 }
 
 .debug footer{
